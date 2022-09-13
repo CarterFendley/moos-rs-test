@@ -1,0 +1,13 @@
+[package]
+name = "moos-rs-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+tokio = { version = "1", features = ["full"] }
+simple_logger = "1.11.0"
+moos = { git = "https://github.com/cgagner/moos-rs", branch = "development" }
+
